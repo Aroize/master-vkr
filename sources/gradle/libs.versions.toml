@@ -1,0 +1,147 @@
+# libs.versions.toml
+
+[versions]
+gradle = "8.1.1"
+gmsPluginVersion = "4.3.15"
+crashlyticsPluginVersion = "2.9.9"
+hiltPluginVersion = "2.49"
+
+hilt-navigation-compose = "1.2.0"
+kotlin-gradle-plugin = "1.9.0"
+kotlin-immutable = "0.3.7"
+kotlinx-coroutines-core = "1.9.0-RC.2"
+lifecycle-viewmodel-compose = "2.7.0"
+lifecycle-runtime-compose = "2.7.0"
+
+androidxActivityCompose = "1.8.2"
+composeBom = "2024.02.01"
+composeMaterial3 = "1.2.1"
+constraintLayoutCompose = "1.0.1"
+composeShimmer = "1.2.0"
+androidXAnnotation = "1.8.2"
+
+lifecycle-runtime-ktx = "2.6.2"
+desugar-jdk-libs = "2.0.3"
+room = "2.6.1"
+accompanist-systemuicontroller = "0.34.0"
+lifecycle-extensions = "2.2.0"
+core-ktx = "1.12.0"
+appcompat = "1.6.1"
+material = "1.9.0"
+fragment-ktx = "1.6.1"
+retrofit = "2.11.0"
+converter-gson = "2.11.0"
+okhttp = "4.12.0"
+cicerone = "7.1"
+play-services-location = "21.0.1"
+camera = "1.4.0-beta02"
+accompanist-permissions = "0.34.0"
+core-splashscreen = "1.2.0-alpha01"
+glide = "4.16.0"
+glideCompose = "1.0.0-beta01"
+hilt = "2.49"
+glide-transformations = "4.3.0"
+image-support = "2.0.0"
+maps-mobile = "4.6.1-lite"
+firebase-bom = "32.2.3"
+firebase-crashlytics-ktx = "32.2.3"
+firebase-analytics-ktx = "32.2.3"
+firebase-messaging-ktx = "32.2.3"
+zxing-core = "3.4.1"
+oauth-vk = "0.110-24426"
+vksdk-pub = "0.110-24426"
+flipper = "0.250.0"
+soloader = "0.10.5"
+flipper-network-plugin = "0.250.0"
+junit = "4.13.2"
+androidx-junit = "1.1.5"
+espresso-core = "3.5.1"
+agp = "8.1.1"
+org-jetbrains-kotlin-android = "1.9.0"
+
+detekt = "1.23.3"
+
+[plugins]
+com-android-library = { id = "com.android.library", version.ref = "agp" }
+crashlyticsPlugin = { id = "com.google.firebase.crashlytics", version.ref = "crashlyticsPluginVersion" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+gmsPlugin = { id = "com.google.gms.google-services", version.ref = "gmsPluginVersion" }
+hiltPlugin = { id = "com.google.dagger.hilt.android", version.ref = "hiltPluginVersion" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+
+[libraries]
+andoridx-hiltNavigationCompose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+androidTools-desugarJdkLibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar-jdk-libs" }
+androidToolsBuild-gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
+androidX-roomCompiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-activityCompose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivityCompose" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "androidXAnnotation" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-cameraCamera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camera" }
+androidx-cameraLifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camera" }
+androidx-cameraView = { group = "androidx.camera", name = "camera-view", version.ref = "camera" }
+androidx-constraintLayoutCompose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintLayoutCompose" }
+androidx-coreKtx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+androidx-coreSplashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "core-splashscreen" }
+androidx-fragmentKtx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment-ktx" }
+androidx-lifecycleExtensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycle-extensions" }
+androidx-lifecycleRuntimeCompose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle-runtime-compose" }
+androidx-lifecycleRuntimeKtx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycleViewmodelCompose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle-viewmodel-compose" }
+androidx-roomKtx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-roomRuntime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidxCompose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidxCompose-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidxCompose-material3Android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "composeMaterial3" }
+androidxCompose-toolingPreview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidxCompose-ui = { group = "androidx.compose.ui", name = "ui" }  # version omitted since it's defined in the BOM
+androidxTest-espressoCore = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+androidxTestExt-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-junit" }
+facebook-flipper = { group = "com.facebook.flipper", name = "flipper", version.ref = "flipper" }
+facebook-flipperNetworkPlugin = { group = "com.facebook.flipper", name = "flipper-network-plugin", version.ref = "flipper-network-plugin" }
+facebook-soloader = { group = "com.facebook.soloader", name = "soloader", version.ref = "soloader" }
+githubBumptechGlide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+githubBumptechGlide-compose = { group = "com.github.bumptech.glide", name = "compose", version.ref = "glideCompose" }
+githubBumptechGlide-glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+githubBumptechGlide-okhttp3Integration = { group = "com.github.bumptech.glide", name = "okhttp3-integration", version.ref = "glide" }
+githubNikartm-imageSupport = { group = "io.github.nikartm", name = "image-support", version.ref = "image-support" }
+githubTerrakok-cicerone = { group = "com.github.terrakok", name = "cicerone", version.ref = "cicerone" }
+gitlabArturBosch-detektGradlePlugin = { group = "io.gitlab.arturbosch.detekt", name = "detekt-gradle-plugin", version.ref = "detekt" }
+google-accompanistPermissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist-permissions" }
+google-accompanistSystemUiController = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist-systemuicontroller" }
+googleAndroid-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+googleAndroidGms-playServicesLocation = { group = "com.google.android.gms", name = "play-services-location", version.ref = "play-services-location" }
+googleDagger-hiltAndroid = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+googleDagger-hiltCompiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+googleFirebase-firebaseAnalyticsKtx = { group = "com.google.firebase", name = "firebase-analytics-ktx" }
+googleFirebase-firebaseBom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom" }
+googleFirebase-firebaseCrashlyticsKtx = { group = "com.google.firebase", name = "firebase-crashlytics-ktx" }
+googleFirebase-firebaseMessagingKtx = { group = "com.google.firebase", name = "firebase-messaging-ktx" }
+googleZxing-core = { group = "com.google.zxing", name = "core", version.ref = "zxing-core" }
+jetbrains-kotlinGradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin-gradle-plugin" }
+jetbrains-kotlinxCollectionsImmutable = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable", version.ref = "kotlin-immutable" }
+jetbrains-kotlinxCoroutinesCore = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-core" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+squareupOkhttp3-loggingInterceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+squareupOkhttp3-okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+squareupOkhttp3-okhttpSse = { group = "com.squareup.okhttp3", name = "okhttp-sse", version.ref = "okhttp" }
+squareupRetrofit2-converterGson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converter-gson" }
+squareupRetrofit2-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+valentinilkShimmer-composeShimmer = { group = "com.valentinilk.shimmer", name = "compose-shimmer", version.ref = "composeShimmer" }
+vk-oauthVk = { group = "com.vk", name = "oauth-vk", version.ref = "oauth-vk" }
+vk-vksdkPub = { group = "com.vk", name = "vksdk-pub", version.ref = "vksdk-pub" }
+wasabeef-glideTransformations = { group = "jp.wasabeef", name = "glide-transformations", version.ref = "glide-transformations" }
+yandexAndroid-mapsMobile = { group = "com.yandex.android", name = "maps.mobile", version.ref = "maps-mobile" }
+
+[bundles]
+androidxCamera = ["androidx-cameraCamera2", "androidx-cameraLifecycle", "androidx-cameraView"]
+composeExt = ["andoridx-hiltNavigationCompose", "androidx-lifecycleViewmodelCompose", "androidx-lifecycleRuntimeCompose", ]
+composeUi = ["androidx-activityCompose", "androidxCompose-bom", "androidxCompose-ui", "androidxCompose-graphics", "androidxCompose-toolingPreview", "androidxCompose-material3Android", "androidx-constraintLayoutCompose", "valentinilkShimmer-composeShimmer"]
+firebase = ["googleFirebase-firebaseBom", "googleFirebase-firebaseCrashlyticsKtx", "googleFirebase-firebaseAnalyticsKtx", "googleFirebase-firebaseMessagingKtx"]
+#glide без okhttp3Integration
+glide = ["githubBumptechGlide-glide", "githubBumptechGlide-compose", "wasabeef-glideTransformations", "githubBumptechGlide-compiler"]
+okHttp3 = ["squareupOkhttp3-okhttp", "squareupOkhttp3-okhttpSse", "squareupOkhttp3-loggingInterceptor"]
+retrofit2 = ["squareupRetrofit2-retrofit", "squareupRetrofit2-converterGson"]
+#room без androidX-roomCompiler
+room = ["androidx-roomKtx", "androidx-roomRuntime"]
+vk = ["vk-oauthVk", "vk-vksdkPub"]

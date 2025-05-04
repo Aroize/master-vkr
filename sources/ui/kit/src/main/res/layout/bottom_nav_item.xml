@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ru.nikartm.support.ImageBadgeView
+        android:id="@+id/nav_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ibv_badgeBackground="@drawable/badge_bg"
+        app:ibv_badgeTextColor="@android:color/white"
+        app:ibv_badgePosition="top_right"
+        app:ibv_badgeTextSize="9sp"
+        app:ibv_maxBadgeValue="99"
+        app:ibv_badgePadding="4dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingTop="2dp"
+        tools:src="@drawable/ic_nav_chat_24"
+        tools:ignore="RtlSymmetry">
+    </ru.nikartm.support.ImageBadgeView>
+    <TextView
+        android:id="@+id/nav_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        android:fontFamily="@font/gilroy_semibold"
+        tools:text="Сообщения"/>
+</LinearLayout>

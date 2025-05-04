@@ -1,0 +1,54 @@
+image: gradle:8.0-jdk17
+
+stages:
+  - build
+
+variables:
+  ANDROID_SDK_ROOT: "/sdk"
+  GRADLE_USER_HOME: "/cache/gradle"
+  ANDROID_HOME: "/sdk"
+  JAVA_OPTS: "-Xmx2048m"
+  ANDROID_COMPILE_SDK: "34"
+  ANDROID_BUILD_TOOLS: "34.0.0"
+  ANDROID_SDK_TOOLS:   "8512546"
+
+cache:
+  paths:
+    - /cache/gradle
+    - .gradle/
+
+before_script:
+  - export PATH="/sdk/tools:/sdk/tools/bin:/sdk/platform-tools:/gradlew:$PATH"
+  # Установка Android SDK
+  - mkdir -p ${ANDROID_SDK_ROOT}
+  - wget -q https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip -O sdk-tools.zip
+  - unzip -qq sdk-tools.zip && rm sdk-tools.zip
+  - mv cmdline-tools ${ANDROID_SDK_ROOT}
+  - mkdir -p ${ANDROID_HOME}/licenses
+  - echo "24333f8a63b6825ea9c5514f83c2829b004d1fee" > ${ANDROID_HOME}/licenses/android-sdk-license
+  - echo "84831b9409646a918e30573bab4c9c91346d8abd" > ${ANDROID_HOME}/licenses/android-sdk-preview-license
+  # temporarily disable checking for EPIPE error and use yes to accept all licenses
+  - set +o pipefail
+  - yes | ${ANDROID_HOME}/cmdline-tools/bin/sdkmanager --licenses --sdk_root=${ANDROID_SDK_ROOT}
+  - yes | ${ANDROID_HOME}/cmdline-tools/bin/sdkmanager --update --sdk_root=${ANDROID_SDK_ROOT}
+  - yes | ${ANDROID_HOME}/cmdline-tools/bin/sdkmanager "build-tools;34.0.0" "platforms;android-34" "platform-tools" --sdk_root=${ANDROID_SDK_ROOT}
+  - set -o pipefail
+  - chmod +x ./gradlew
+
+build_debug_apk:
+  stage: build
+  script:
+    # Сборка APK в режиме debug
+    - ./gradlew client:assembleDebug --quiet
+    - ./gradlew business:assembleDebug --quiet
+    # Копируем APK в директорию outputs
+    - mkdir -p outputs
+    - cp apps/b2b/build/outputs/apk/debug/business-debug.apk outputs/
+    - cp apps/b2c/build/outputs/apk/debug/client-debug.apk outputs/
+  artifacts:
+    paths:
+      - outputs/business-debug.apk
+      - outputs/client-debug.apk
+    expire_in: 1 day
+  only:
+    - dev

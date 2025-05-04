@@ -1,0 +1,22 @@
+
+import visify.tools.Plugins
+import visify.tools.androidModule
+import visify.tools.impl
+import visify.tools.visifyKapt
+
+androidModule(
+    pkg = "care.visify.core.repository",
+    useCompose = false,
+    plugins = listOf(
+        Plugins.Hilt,
+        Plugins.Kapt
+    ),
+    deps = {
+
+        impl(projects.core.api.models)
+
+        impl(libs.bundles.retrofit2)
+        impl(libs.googleDagger.hiltAndroid)
+        visifyKapt(libs.googleDagger.hiltCompiler)
+    }
+)

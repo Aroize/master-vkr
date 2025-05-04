@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735675288479",
+    "project_id": "nails-dev-cf678",
+    "storage_bucket": "nails-dev-cf678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735675288479:android:e52dbdbac1e2d675cb4baa",
+        "android_client_info": {
+          "package_name": "care.visify.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735675288479-anc38blol5if4p3t0njsognq8r0tin4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "care.visify.client",
+            "certificate_hash": "89c9acb8fe263fca2ce3eb1faa6b3c0af49068d7"
+          }
+        },
+        {
+          "client_id": "735675288479-ikp67bas2ledj5vgdmtetqdr4e9sfutp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "care.visify.client",
+            "certificate_hash": "6e5115ecb7907a66102ec681303250c305bb00ed"
+          }
+        },
+        {
+          "client_id": "735675288479-fe8snspafg6cnens4vjji05g7a3rq018.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh9sHX_SEU80nfbSYiNen7_I7h1FmjGvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735675288479-fe8snspafg6cnens4vjji05g7a3rq018.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

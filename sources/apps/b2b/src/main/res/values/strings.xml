@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    todo BUSINESS VALUE-->
+    <string name="yandex_maps_secret" translatable="false">d4ee5eed-ccb8-4795-96e1-38335c6d0020</string>
+
+    <string name="app_name">Visify Бизнес</string>
+    <string name="bottom_nav_title_dashboard">Дашборд</string>
+    <string name="bottom_nav_title_visits">Визиты</string>
+    <string name="bottom_nav_title_chats">Сообщения</string>
+    <string name="bottom_nav_title_salons">Салоны</string>
+
+<!--    todo BUSINESS VALUE-->
+    <string name="business_sign_in_token">123</string>
+
+</resources>

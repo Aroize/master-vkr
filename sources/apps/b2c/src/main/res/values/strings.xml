@@ -1,0 +1,248 @@
+<resources>
+
+    <integer name="com_vk_sdk_AppId">51744557</integer>
+    <string name="yandex_maps_secret" translatable="false">d4ee5eed-ccb8-4795-96e1-38335c6d0020</string>
+    <string name="vk_client_secret" translatable="false">4foiSoqq45MrAXzo5iJu</string>
+    <string name="vk_account_manager_id" translatable="false">care.visify.client.account</string>
+    <string name="vk_external_oauth_redirect_url" translatable="false">vk51744557://vk.com</string>
+
+    <string name="app_name">Visify</string>
+    <string name="search">Поиск</string>
+    <string name="permit">Разрешить</string>
+    <string name="later">Позже</string>
+    <string name="continue_button">Продолжить</string>
+    <string name="cancel">Отмена</string>
+    <string name="tab_list">Списком</string>
+    <string name="tab_on_map">На карте</string>
+    <string name="catalog_all">Все</string>
+    <string name="catalog_show_all_orgs">Смотреть все салоны</string>
+    <string name="and">и</string>
+    <string name="exit">Выйти</string>
+    <string name="my_orders">Мои заказы</string>
+    <string name="my_orders_new_order">Новый заказ</string>
+    <string name="visits_active">Активен</string>
+    <string name="visits_search_stopped">Поиск остановлен</string>
+    <string name="visits_closed">Закрыт</string>
+    <string name="settings">Настройки</string>
+    <string name="notifications_disable_title">Уведомления выключены</string>
+    <string name="notifications_disable_text">Вы отключили уведомления. Что бы получать уведомления о новых сообщениях и откликах, включите их в настройках</string>
+    <string name="notifications_disable_button">Открыть настройки</string>
+    <string name="notifications">Уведомления</string>
+    <string name="visit_notification_title">Уведомления о записи</string>
+    <string name="visit_notification_text">Сообщим заранее о записи, чтоб вы не забыли</string>
+    <string name="visit_remind_text">Напоминание о записи</string>
+    <string name="before_1_hour">за 1 час</string>
+    <string name="before_2_hours">за 2 часа</string>
+    <string name="before_3_hours">за 3 часа</string>
+
+    <string name="about_app">О приложении</string>
+    <string name="user_agreement">Пользовательское соглашение</string>
+    <string name="privacy_policy">политика конфиденциальности</string>
+
+    <string name="label_from">от</string>
+    <string name="label_to">до</string>
+
+    <string name="catalog_organisations_top">Топ салонов</string>
+    <string name="catalog_organisations_all">Все салоны</string>
+    <string name="catalog_organisations_map">Салоны на карте</string>
+    <string name="catalog_popular_categories">Популярные категории</string>
+    <string name="catalog_popular_masters">Популярные мастера</string>
+    <string name="catalog_popular_organisations">Популярные салоны</string>
+    <string name="catalog_clear_filters">Сбросить фильтры</string>
+
+    <string name="catalog_organisations_tab_best">Лучшие</string>
+    <string name="catalog_organisations_tab_popular">Популярные</string>
+    <string name="catalog_organisations_tab_recommended">Рекомендуемые</string>
+
+    <string name="catalog_recommendations_stub_header">Пока пусто</string>
+    <string name="catalog_recommendations_stub_hint">Мало активности с вашей стороны</string>
+    <string name="catalog_nothing_found">Ничего не найдено</string>
+    <string name="catalog_filters_stub_hint">Попробуйте изменить запрос или сбросить фильтры</string>
+    <string name="catalog_try_to_change_query">Попробуйте изменить запрос</string>
+
+    <string name="org_open_till">Открыто до %1$s</string>
+    <string name="org_average_bill">от %1$s ₽</string>
+    <string name="org_average_bill_start">от </string>
+    <string name="org_average_bill_end"> %1$d ₽</string>
+    <string name="error_description">Произошла ошибка при загрузке</string>
+    <string name="error_try_again">Попробовать еще раз</string>
+    <string name="continue_btn">Продолжить</string>
+    <string name="select_city_manually">Указать город вручную</string>
+    <string name="geo_permission_description">Нам нужно узнать ваш город, чтобы\nпоказать актуальные предложения</string>
+    <string name="geo_permission_title">Разрешите доступ к геопозиции</string>
+
+    <string name="otp_code_hint">Код подтверждения</string>
+    <string name="otp_email_hint">Эл. почта</string>
+    <string name="otp_phone_description">Пожалуйста, введите свою электронную почту для доступа к личному кабинету и возможности записи</string>
+    <string name="otp_phone_title">Вход</string>
+    <string name="otp_sign_in_google">Вход с google</string>
+    <string name="otp_sign_in_apple">Вход с apple</string>
+    <string name="otp_sign_in_vk">Вход через VK ID</string>
+    <string name="otp_code_title">Код подтверждения</string>
+    <string name="otp_code_description">На Вашу почту %1$s мы отправили код подтверждения. Введите его</string>
+    <string name="otp_code_description_start">На Вашу почту</string>
+    <string name="otp_code_description_end">мы отправили код подтверждения. Введите его</string>
+    <string name="otp_resend_code_remaining">Вы сможете запросить код заново через</string>
+    <string name="otp_resend_code">Отправить код еще раз</string>
+    <string name="otp_failure_during_auth">Произошла ошибка авторизации. Пожалуйста, выполните вход</string>
+    <string name="otp_policy_start">Регистрируясь в приложении, Вы принимаете</string>
+    <string name="otp_policy_terms_clickable">пользовательское соглашение</string>
+    <string name="otp_policy_confidentiality_clickable">политику конфиденциальности</string>
+    <string name="otp_code_is_invalid">Код не подходит. Проверьте, нет ли ошибок в цифрах</string>
+    <string name="otp_exit">Выйти</string>
+
+    <string name="finish_registration_title">Регистрация</string>
+    <string name="finish_registration_name_hint">Как вас зовут?</string>
+    <string name="all_done">Готово</string>
+    <string name="select_city_title">Выберите город</string>
+    <string name="choose_category_header">Что вы хотите сделать?</string>
+    <string name="choose_subcategory_header">Какой?</string>
+    <string name="order_calendar_when">Когда?</string>
+    <string name="order_timeslots_header">Удобное время</string>
+    <string name="order_timeslots_description">Выберите все удобные слоты, что бы получить больше предложений</string>
+    <string name="order_timeslots_morning">Утро</string>
+    <string name="order_timeslots_afternoon">День</string>
+    <string name="order_timeslots_evening">Вечер</string>
+    <string name="order_price_title">Стоимость</string>
+    <string name="order_without_min_price">Без минимальной цены</string>
+    <string name="order_without_max_price">Без максимальной цены</string>
+    <string name="order_without_min_rating">Без минимального рейтинга</string>
+    <string name="order_rating_title">Рейтинг мастера</string>
+    <string name="order_desire_title">Пожелания</string>
+    <string name="order_references_title">Фото референсов</string>
+    <string name="order_references_description">Можете приложить фотографии того, что хотите сделать</string>
+    <string name="order_references_add_photo">Добавить фотографии</string>
+    <string name="order_desire_hint">Что важно знать мастеру</string>
+    <string name="order_create_button_text">Создать заказ</string>
+    <string name="otp_external_auth_hint">или войти через:</string>
+    <string name="avatar_title">Фото профиля</string>
+
+    <string-array name="month_array">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string-array name="month_array_order">
+        <item>января</item>
+        <item>февраля</item>
+        <item>марта</item>
+        <item>апреля</item>
+        <item>мая</item>
+        <item>июня</item>
+        <item>июля</item>
+        <item>августа</item>
+        <item>сентября</item>
+        <item>октября</item>
+        <item>ноября</item>
+        <item>декабря</item>
+    </string-array>
+
+    <string-array name="days_of_week">
+        <item>понедельник</item>
+        <item>вторник</item>
+        <item>среда</item>
+        <item>четверг</item>
+        <item>пятница</item>
+        <item>суббота</item>
+        <item>воскресенье</item>
+    </string-array>
+
+    <plurals name="org_total_scores">
+        <item quantity="one">%1$d оценка</item>
+        <item quantity="two">%1$d оценки</item>
+        <item quantity="few">%1$d оценки</item>
+        <item quantity="other">%1$d оценок</item>
+    </plurals>
+    <plurals name="org_in_city">
+        <item quantity="one">%1$d салон в городе</item>
+        <item quantity="two">%1$d салона в городе</item>
+        <item quantity="few">%1$d салона в городе</item>
+        <item quantity="other">%1$d салонов в городе</item>
+    </plurals>
+    <plurals name="review_stars">
+        <item quantity="one">%1$d звезда</item>
+        <item quantity="two">%1$d звезды</item>
+        <item quantity="few">%1$d звезды</item>
+        <item quantity="other">%1$d звезд</item>
+    </plurals>
+    <plurals name="review_count">
+        <item quantity="one">%1$d отзыв</item>
+        <item quantity="two">%1$d отзыва</item>
+        <item quantity="few">%1$d отзыва</item>
+        <item quantity="other">%1$d отзывов</item>
+    </plurals>
+    <plurals name="timings_minutes">
+        <item quantity="one">%1$d минfута</item>
+        <item quantity="two">%1$d минуты</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="other">%1$d минут</item>
+    </plurals>
+    <plurals name="timings_hours">
+        <item quantity="one">%1$d час</item>
+        <item quantity="two">%1$d часа</item>
+        <item quantity="few">%1$d часов</item>
+        <item quantity="other">%1$d часов</item>
+    </plurals>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="catalog_search_header">Мастер, салон или услуга</string>
+    <string name="bottom_nav_title_main">Главная</string>
+    <string name="bottom_nav_title_fav">Избранное</string>
+    <string name="visits_title">Визиты</string>
+    <string name="chat_title">Сообщения</string>
+    <string name="bottom_nav_title_profile">Профиль</string>
+    <string name="catalog_search_history_title">Вы искали</string>
+    <string name="catalog_search_history_clear">Очистить</string>
+    <string name="search_tab_masters">Мастера</string>
+    <string name="search_tab_orgs">Салоны</string>
+    <string name="search_empty_result_title">Ничего не найдено</string>
+    <string name="search_empty_result_subtitle">Попробуйте изменить запрос</string>
+    <string name="finish_registration_subtitle">Рады видеть вас у нас.\nДавайте знакомиться )</string>
+    <string name="orgs_sorting_popularity">Популярные</string>
+    <string name="orgs_sorting_ratings">По рейтингу</string>
+    <string name="orgs_sorting_reviews">По количеству отзывов</string>
+    <string name="orgs_sorting_cheap">Недорогие</string>
+    <string name="org_review_sorting_new">Сначала новые</string>
+    <string name="org_review_sorting_top">Сначала положительные</string>
+    <string name="org_review_sorting_low">Сначала отрицательные</string>
+    <string name="org_review_sorting_wearing">Есть отзыв после 2-ух недель</string>
+
+    <string name="visits_stub_header">Сейчас записей нет</string>
+    <string name="visits_stub_button">Найти салон для записи</string>
+    <string name="my_orders_active_orders">Активные записи</string>
+    <string name="my_orders_archive">Архив</string>
+    <string name="visits_details">Детали записи</string>
+    <string name="visits_text_to_organisation">Написать в салон</string>
+    <string name="visits_approve">Посмотреть и подтвердить предложение</string>
+    <string name="visits_confirm">Ожидается ваше подтверждение</string>
+    <string name="visits_confirm_changes">Ожидается подтверждение изменений</string>
+    <string name="visits_add_review">Оставить отзыв</string>
+    <string name="visits_remind">Напомним</string>
+    <string name="visits_can_add_only_before">Можно оставить только в первые 2-е недели</string>
+    <string name="visits_cant_add_review">—</string>
+    <string name="visits_review_after_visit">Отзыв после сеанса</string>
+
+
+    <string name="favorites_no_orgs_title">Салонов нет</string>
+    <string name="favorites_no_orgs_text">Добавляйте понравившиеся салоны в избранное, чтоб не потерять их</string>
+    <string name="favorites_no_orgs_button">Найти салон</string>
+    <string name="favorites_no_masters_title">Мастеров нет</string>
+    <string name="favorites_no_masters_text">Добавляйте понравившихся мастеров в избранное, чтоб не потерять их</string>
+    <string name="favorites_no_masters_button">Популярные мастера</string>
+
+    <string name="chat_dialogs_stub">Сейчас активных чатов нет</string>
+    <string name="chat_replies_stub">Сейчас откликов нет</string>
+    
+    <string name="my_orders_stub_header">Сейчас заказов нет</string>
+    <string name="my_orders_stub_hint">Не хотите долго искать? Можете описать заказ, удобное время, пожелания и мастера и салоны сами напишут вам предложение</string>
+    <string name="my_orders_stub_button">Новый заказ</string>
+</resources>
